@@ -1,0 +1,48 @@
+name, memory.total [MiB]
+Tesla P40, 23040 MiB
+torch 2.6.0+cu124 cuda available True
+/home/accounts/studenti/id683lij/venvs/thesis/lib64/python3.11/site-packages/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.spatial.dictionary Orientationd.__init__:labels: Current default value of argument `labels=(('L', 'R'), ('P', 'A'), ('I', 'S'))` was changed in version None from `labels=(('L', 'R'), ('P', 'A'), ('I', 'S'))` to `labels=None`. Default value changed to None meaning that the transform now uses the 'space' of a meta-tensor, if applicable, to determine appropriate axis labels.
+  warn_deprecated(argname, msg, warning_category)
+================================================================================
+EXPERIMENT 15
+SYNTHETIC SLICE THICKNESS vs DiNTS
+================================================================================
+2026-11-04 18:22:34.292993 - Length of input patch is recommended to be a multiple of 32.
+[01/1] PAN_12
+/home/accounts/studenti/id683lij/venvs/thesis/lib64/python3.11/site-packages/monai/data/meta_tensor.py:154: UserWarning: Setting affine, but the applied meta contains an affine. This will be overwritten.
+  warnings.warn("Setting affine, but the applied meta contains an affine. This will be overwritten.")
+    S0_full       1.6 mm | complex Dice vs thin 0.981 | tumor Dice vs thin 0.884 | tumor 1.352 mL | vs TotalSeg 0.853
+    S0_full       3.2 mm | complex Dice vs thin 0.954 | tumor Dice vs thin 0.896 | tumor 1.087 mL | vs TotalSeg 0.849
+    S0_full       4.8 mm | complex Dice vs thin 0.906 | tumor Dice vs thin 0.524 | tumor 2.106 mL | vs TotalSeg 0.851
+    S0_full      thin   | tumor 1.073 mL | vs TotalSeg 0.855
+    S3_crop_tta   1.6 mm | complex Dice vs thin 0.98 | tumor Dice vs thin nan | tumor 0.0 mL | vs TotalSeg 0.877
+    S3_crop_tta   3.2 mm | complex Dice vs thin 0.951 | tumor Dice vs thin nan | tumor 0.0 mL | vs TotalSeg 0.874
+    S3_crop_tta   4.8 mm | complex Dice vs thin 0.894 | tumor Dice vs thin 0.0 | tumor 1.105 mL | vs TotalSeg 0.869
+    S3_crop_tta  thin   | tumor 0.0 mL | vs TotalSeg 0.874
+
+Median dice_complex_vs_thin (rows: strategy, columns: target thickness mm):
+target_thickness_mm    2.0    3.0    5.0
+strategy                                
+S0_full              0.981  0.954  0.906
+S3_crop_tta          0.980  0.951  0.894
+
+Median dice_tumor_vs_thin (rows: strategy, columns: target thickness mm):
+target_thickness_mm    2.0    3.0    5.0
+strategy                                
+S0_full              0.884  0.896  0.524
+S3_crop_tta            NaN    NaN  0.000
+
+Median dice_complex_vs_totalseg (rows: strategy, columns: target thickness mm):
+target_thickness_mm    2.0    3.0    5.0
+strategy                                
+S0_full              0.853  0.849  0.851
+S3_crop_tta          0.877  0.874  0.869
+
+Tumor candidate volume (mL) per patient:
+target_thickness_mm    2.0    3.0    5.0   thin
+patient strategy                               
+PAN_12  S0_full      1.352  1.087  2.106  1.073
+        S3_crop_tta  0.000  0.000  1.105  0.000
+
+Results:
+/storage-large/homedirs/id683lij/Thesis_Folder/Results/_Phase2_Experiment15_SliceThickness/Phase2_Experiment15_SliceThickness.csv

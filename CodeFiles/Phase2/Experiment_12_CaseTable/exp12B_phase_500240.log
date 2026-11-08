@@ -1,0 +1,76 @@
+name, memory.total [MiB]
+Tesla P40, 23040 MiB
+torch 2.6.0+cu124 cuda available True
+================================================================================
+EXPERIMENT 12B
+IMAGE-BASED CONTRAST PHASE
+================================================================================
+================================================================================
+EXPERIMENT 12B
+IMAGE-BASED CONTRAST PHASE
+================================================================================
+================================================================================
+EXPERIMENT 12B
+IMAGE-BASED CONTRAST PHASE
+================================================================================
+================================================================================
+EXPERIMENT 12B
+IMAGE-BASED CONTRAST PHASE
+================================================================================
+[01/38] PAN_01: aorta=242.0 HU | portal=126.0 HU | ratio=0.521 | ARTERIAL | TotalSeg: arterial_late
+[02/38] PAN_02: aorta=463.0 HU | portal=158.0 HU | ratio=0.341 | ARTERIAL | TotalSeg: arterial_late
+[03/38] PAN_03: aorta=369.0 HU | portal=178.0 HU | ratio=0.482 | ARTERIAL | TotalSeg: arterial_late
+[04/38] PAN_04: aorta=297.0 HU | portal=193.0 HU | ratio=0.65 | ARTERIAL | TotalSeg: arterial_late
+[05/38] PAN_05: aorta=232.0 HU | portal=91.0 HU | ratio=0.392 | ARTERIAL | TotalSeg: arterial_late
+[06/38] PAN_06: aorta=299.0 HU | portal=146.0 HU | ratio=0.488 | ARTERIAL | TotalSeg: arterial_early
+[07/38] PAN_07: aorta=297.0 HU | portal=186.0 HU | ratio=0.626 | ARTERIAL | TotalSeg: arterial_late
+[08/38] PAN_08: aorta=228.0 HU | portal=132.0 HU | ratio=0.579 | ARTERIAL | TotalSeg: arterial_late
+[09/38] PAN_09: aorta=312.0 HU | portal=209.0 HU | ratio=0.67 | ARTERIAL | TotalSeg: arterial_late
+[10/38] PAN_10: aorta=218.0 HU | portal=59.0 HU | ratio=0.271 | ARTERIAL | TotalSeg: arterial_late
+[11/38] PAN_11: aorta=188.0 HU | portal=85.0 HU | ratio=0.452 | ARTERIAL | TotalSeg: portal_venous
+[12/38] PAN_12: aorta=287.0 HU | portal=110.0 HU | ratio=0.383 | ARTERIAL | TotalSeg: arterial_late
+[13/38] PAN_13: aorta=431.0 HU | portal=222.0 HU | ratio=0.515 | ARTERIAL | TotalSeg: arterial_late
+[14/38] PAN_14: aorta=278.0 HU | portal=264.0 HU | ratio=0.95 | PORTAL_VENOUS | TotalSeg: arterial_late
+[15/38] PAN_15: aorta=380.0 HU | portal=207.0 HU | ratio=0.545 | ARTERIAL | TotalSeg: arterial_late
+[16/38] PAN_16: aorta=299.0 HU | portal=200.0 HU | ratio=0.669 | ARTERIAL | TotalSeg: arterial_late
+[17/38] PAN_17: aorta=237.0 HU | portal=138.0 HU | ratio=0.582 | ARTERIAL | TotalSeg: arterial_late
+[18/38] PAN_18: aorta=298.0 HU | portal=106.0 HU | ratio=0.356 | ARTERIAL | TotalSeg: arterial_late
+[19/38] PAN_19: aorta=277.0 HU | portal=163.0 HU | ratio=0.588 | ARTERIAL | TotalSeg: portal_venous
+[20/38] PAN_20: aorta=190.0 HU | portal=196.0 HU | ratio=1.032 | PORTAL_VENOUS | TotalSeg: portal_venous
+[21/38] PAN_21: aorta=345.0 HU | portal=200.0 HU | ratio=0.58 | ARTERIAL | TotalSeg: arterial_late
+[22/38] PAN_22: aorta=276.0 HU | portal=230.0 HU | ratio=0.833 | PORTAL_VENOUS | TotalSeg: portal_venous
+[23/38] PAN_23: aorta=220.0 HU | portal=126.0 HU | ratio=0.573 | ARTERIAL | TotalSeg: portal_venous
+[24/38] PAN_24: aorta=283.0 HU | portal=124.0 HU | ratio=0.438 | ARTERIAL | TotalSeg: arterial_late
+[25/38] PAN_25: aorta=268.0 HU | portal=94.0 HU | ratio=0.351 | ARTERIAL | TotalSeg: arterial_late
+[26/38] PAN_26: aorta=237.0 HU | portal=174.0 HU | ratio=0.734 | PORTAL_VENOUS | TotalSeg: arterial_late
+[27/38] PAN_27: aorta=274.0 HU | portal=157.0 HU | ratio=0.573 | ARTERIAL | TotalSeg: arterial_late
+[28/38] PAN_28: aorta=339.0 HU | portal=213.0 HU | ratio=0.628 | ARTERIAL | TotalSeg: portal_venous
+[29/38] PAN_29: aorta=341.0 HU | portal=169.0 HU | ratio=0.496 | ARTERIAL | TotalSeg: arterial_late
+[30/38] PAN_30: aorta=274.0 HU | portal=103.0 HU | ratio=0.376 | ARTERIAL | TotalSeg: arterial_late
+[31/38] PAN_31: aorta=288.0 HU | portal=131.0 HU | ratio=0.455 | ARTERIAL | TotalSeg: arterial_late
+[32/38] PAN_32: aorta=315.0 HU | portal=82.0 HU | ratio=0.26 | ARTERIAL | TotalSeg: arterial_late
+[33/38] PAN_33: aorta=294.0 HU | portal=69.0 HU | ratio=0.235 | ARTERIAL | TotalSeg: arterial_late
+[34/38] PAN_34: aorta=189.0 HU | portal=89.0 HU | ratio=0.471 | ARTERIAL | TotalSeg: arterial_late
+[35/38] PAN_35: aorta=226.0 HU | portal=65.0 HU | ratio=0.288 | ARTERIAL | TotalSeg: arterial_early
+[36/38] PAN_36: aorta=182.0 HU | portal=103.0 HU | ratio=0.566 | ARTERIAL | TotalSeg: portal_venous
+[37/38] PAN_37: aorta=260.0 HU | portal=122.0 HU | ratio=0.469 | ARTERIAL | TotalSeg: arterial_late
+[38/38] PAN_38: aorta=145.0 HU | portal=173.0 HU | ratio=1.193 | PORTAL_VENOUS | TotalSeg: portal_venous
+
+Phase table:
+/storage-large/homedirs/id683lij/Thesis_Folder/Results/_Phase2_Experiment12B_ContrastPhase/Phase2_Experiment12B_ContrastPhase.csv
+
+Case table updated:
+/storage-large/homedirs/id683lij/Thesis_Folder/Results/_Phase2_Experiment12_CaseTable/Phase2_Experiment12A_CaseTable_All38.csv
+
+DICOM phase vs image phase:
+contrast_phase_image    ARTERIAL  PORTAL_VENOUS  All
+suggested_phase                                     
+ARTERIAL                       9              3   12
+CONTRAST_UNKNOWN_PHASE        12              2   14
+DERIVED_REFORMAT               1              0    1
+PORTAL_VENOUS                  3              0    3
+UNKNOWN                        8              0    8
+All                           33              5   38
+
+IMPORTANT:
+The phase rule is a heuristic on vessel HU, not a radiologist's reading.

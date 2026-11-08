@@ -1,0 +1,26 @@
+# Whitelist: ignore everything, then allow only code and docs.
+# Patient CT data, clinical sheets, model weights, results and reports stay local.
+/*
+!/.gitignore
+!/README.md
+!/server.py
+!/sync.py
+!/.env.example
+!/CodeFiles/
+
+# Inside CodeFiles: no weights, caches or binary artefacts
+*.pth
+*.pt
+*.ts
+*.pyc
+__pycache__/
+*.nii
+*.nii.gz
+*.dcm
+*.xlsx
+*.docx
+*.pdf
+*.zip
+
+# Never commit secrets
+.env

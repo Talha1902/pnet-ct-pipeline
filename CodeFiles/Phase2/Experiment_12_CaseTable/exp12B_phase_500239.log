@@ -1,0 +1,29 @@
+name, memory.total [MiB]
+Tesla P40, 23040 MiB
+torch 2.6.0+cu124 cuda available True
+================================================================================
+EXPERIMENT 12B
+IMAGE-BASED CONTRAST PHASE
+================================================================================
+Downloading model for Task 292 ...
+Downloading:   0%|          | 0.00/234M [00:00<?, ?B/s]Downloading:   5%|▍         | 10.6M/234M [00:00<00:02, 85.8MB/s]Downloading:   9%|▉         | 21.1M/234M [00:00<00:02, 86.3MB/s]Downloading:  13%|█▎        | 31.6M/234M [00:00<00:02, 91.3MB/s]Downloading:  18%|█▊        | 42.1M/234M [00:00<00:02, 93.4MB/s]Downloading:  22%|██▏       | 52.6M/234M [00:00<00:01, 94.3MB/s]Downloading:  27%|██▋       | 63.0M/234M [00:00<00:01, 94.7MB/s]Downloading:  31%|███▏      | 73.5M/234M [00:00<00:01, 95.5MB/s]Downloading:  36%|███▌      | 84.0M/234M [00:00<00:01, 95.8MB/s]Downloading:  40%|████      | 94.5M/234M [00:01<00:02, 60.8MB/s]Downloading:  45%|████▍     | 105M/234M [00:01<00:01, 68.6MB/s] Downloading:  49%|████▉     | 115M/234M [00:01<00:01, 74.9MB/s]Downloading:  54%|█████▍    | 126M/234M [00:01<00:01, 79.2MB/s]Downloading:  58%|█████▊    | 136M/234M [00:01<00:01, 84.1MB/s]Downloading:  63%|██████▎   | 147M/234M [00:01<00:00, 87.4MB/s]Downloading:  67%|██████▋   | 157M/234M [00:01<00:00, 90.9MB/s]Downloading:  72%|███████▏  | 168M/234M [00:01<00:00, 92.4MB/s]Downloading:  76%|███████▌  | 178M/234M [00:02<00:00, 93.5MB/s]Downloading:  81%|████████  | 189M/234M [00:02<00:00, 49.1MB/s]Downloading:  85%|████████▌ | 199M/234M [00:02<00:00, 56.8MB/s]Downloading:  90%|████████▉ | 210M/234M [00:02<00:00, 64.8MB/s]Downloading:  94%|█████████▍| 220M/234M [00:02<00:00, 71.3MB/s]Downloading:  99%|█████████▊| 231M/234M [00:02<00:00, 77.2MB/s]Downloading: 100%|██████████| 234M/234M [00:02<00:00, 78.4MB/s]
+Download finished. Extracting...
+Downloading model for Task 294 ...
+Downloading:   0%|          | 0.00/234M [00:00<?, ?B/s]Downloading:  21%|██▏       | 50.2M/234M [00:00<00:00, 501MB/s]Downloading:  46%|████▌     | 107M/234M [00:00<00:00, 540MB/s] Downloading:  69%|██████▉   | 161M/234M [00:00<00:00, 502MB/s]Downloading:  90%|█████████ | 211M/234M [00:00<00:00, 482MB/s]Downloading: 100%|██████████| 234M/234M [00:00<00:00, 474MB/s]
+Download finished. Extracting...
+Downloading model for Task 295 ...
+Downloading:   0%|          | 0.00/234M [00:00<?, ?B/s]Downloading:   5%|▍         | 10.6M/234M [00:00<00:03, 71.5MB/s]Downloading:   9%|▉         | 21.1M/234M [00:00<00:05, 42.3MB/s]Downloading:  13%|█▎        | 31.6M/234M [00:00<00:03, 56.4MB/s]Downloading:  16%|█▋        | 38.5M/234M [00:00<00:04, 47.8MB/s]Downloading:  19%|█▉        | 44.2M/234M [00:00<00:04, 44.9MB/s]Downloading:  22%|██▏       | 52.6M/234M [00:01<00:03, 52.9MB/s]Downloading:  27%|██▋       | 63.0M/234M [00:01<00:02, 63.3MB/s]Downloading:  31%|███▏      | 73.5M/234M [00:01<00:02, 71.7MB/s]Downloading:  36%|███▌      | 84.0M/234M [00:01<00:02, 52.1MB/s]Downloading:  40%|████      | 94.5M/234M [00:01<00:02, 61.7MB/s]Downloading:  45%|████▍     | 105M/234M [00:01<00:01, 69.4MB/s] Downloading:  48%|████▊     | 113M/234M [00:01<00:01, 66.4MB/s]Downloading:  52%|█████▏    | 121M/234M [00:02<00:01, 60.6MB/s]Downloading:  54%|█████▍    | 127M/234M [00:02<00:01, 61.4MB/s]Downloading:  58%|█████▊    | 136M/234M [00:02<00:01, 68.2MB/s]Downloading:  63%|██████▎   | 147M/234M [00:02<00:01, 75.9MB/s]Downloading:  67%|██████▋   | 157M/234M [00:02<00:00, 81.3MB/s]Downloading:  72%|███████▏  | 168M/234M [00:02<00:00, 85.4MB/s]Downloading:  76%|███████▌  | 178M/234M [00:02<00:00, 88.3MB/s]Downloading:  80%|████████  | 187M/234M [00:02<00:00, 79.3MB/s]Downloading:  84%|████████▎ | 196M/234M [00:03<00:00, 67.6MB/s]Downloading:  87%|████████▋ | 203M/234M [00:03<00:00, 50.8MB/s]Downloading:  89%|████████▉ | 209M/234M [00:03<00:00, 40.5MB/s]Downloading:  91%|█████████▏| 214M/234M [00:03<00:00, 38.8MB/s]Downloading:  94%|█████████▍| 220M/234M [00:03<00:00, 41.2MB/s]Downloading:  96%|█████████▌| 225M/234M [00:04<00:00, 26.0MB/s]Downloading:  98%|█████████▊| 230M/234M [00:04<00:00, 30.1MB/s]Downloading: 100%|██████████| 234M/234M [00:04<00:00, 52.8MB/s]
+Download finished. Extracting...
+Downloading model for Task 298 ...
+Downloading:   0%|          | 0.00/135M [00:00<?, ?B/s]Downloading:  37%|███▋      | 50.3M/135M [00:00<00:00, 502MB/s]Downloading:  84%|████████▎ | 113M/135M [00:00<00:00, 574MB/s] Downloading: 100%|██████████| 135M/135M [00:00<00:00, 572MB/s]
+Download finished. Extracting...
+Download finished. Extracting...
+Download finished. Extracting...
+Download finished. Extracting...
+[01/1] PAN_34: aorta=189.0 HU | portal=89.0 HU | ratio=0.471 | ARTERIAL | TotalSeg: arterial_late
+
+Phase table:
+/storage-large/homedirs/id683lij/Thesis_Folder/Results/_Phase2_Experiment12B_ContrastPhase/Phase2_Experiment12B_ContrastPhase.csv
+
+IMPORTANT:
+The phase rule is a heuristic on vessel HU, not a radiologist's reading.

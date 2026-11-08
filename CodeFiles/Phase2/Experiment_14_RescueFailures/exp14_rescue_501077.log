@@ -1,0 +1,79 @@
+name, memory.total [MiB]
+Tesla P40, 23040 MiB
+torch 2.6.0+cu124 cuda available True
+/home/accounts/studenti/id683lij/venvs/thesis/lib64/python3.11/site-packages/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.spatial.dictionary Orientationd.__init__:labels: Current default value of argument `labels=(('L', 'R'), ('P', 'A'), ('I', 'S'))` was changed in version None from `labels=(('L', 'R'), ('P', 'A'), ('I', 'S'))` to `labels=None`. Default value changed to None meaning that the transform now uses the 'space' of a meta-tensor, if applicable, to determine appropriate axis labels.
+  warn_deprecated(argname, msg, warning_category)
+================================================================================
+EXPERIMENT 14
+RESCUE DiNTS FAILURES BY CHANGING THE INPUT
+================================================================================
+2026-11-04 17:11:26.032573 - Length of input patch is recommended to be a multiple of 32.
+[01/8] PAN_02
+/home/accounts/studenti/id683lij/venvs/thesis/lib64/python3.11/site-packages/monai/data/meta_tensor.py:154: UserWarning: Setting affine, but the applied meta contains an affine. This will be overwritten.
+  warnings.warn("Setting affine, but the applied meta contains an affine. This will be overwritten.")
+    S0_full      pancreas     0.0 mL | tumor   0.00 mL | Dice vs TotalSeg 0.0 | vs 11A nan | 77.0 s
+    S1_pad       pancreas     0.0 mL | tumor   0.00 mL | Dice vs TotalSeg 0.0 | vs 11A nan | 165.4 s
+    S2_crop      pancreas     0.0 mL | tumor   0.00 mL | Dice vs TotalSeg 0.0 | vs 11A nan | 14.9 s
+    S3_crop_tta  pancreas     0.0 mL | tumor   0.00 mL | Dice vs TotalSeg 0.0 | vs 11A nan | 18.8 s
+[02/8] PAN_08
+    S0_full      pancreas     9.0 mL | tumor   0.02 mL | Dice vs TotalSeg 0.0 | vs 11A 1.0 | 179.4 s
+    S1_pad       pancreas     7.4 mL | tumor   0.20 mL | Dice vs TotalSeg 0.0 | vs 11A 0.489 | 340.9 s
+    S2_crop      pancreas     9.0 mL | tumor   0.00 mL | Dice vs TotalSeg 0.0 | vs 11A 0.597 | 32.4 s
+    S3_crop_tta  pancreas     3.9 mL | tumor   0.00 mL | Dice vs TotalSeg 0.0 | vs 11A 0.499 | 60.5 s
+[03/8] PAN_13
+    S0_full      pancreas    15.3 mL | tumor   0.85 mL | Dice vs TotalSeg 0.036 | vs 11A 1.0 | 233.4 s
+    S1_pad       pancreas    18.4 mL | tumor   0.00 mL | Dice vs TotalSeg 0.065 | vs 11A 0.45 | 372.3 s
+    S2_crop      pancreas     4.8 mL | tumor   1.42 mL | Dice vs TotalSeg 0.04 | vs 11A 0.115 | 78.6 s
+    S3_crop_tta  pancreas     5.3 mL | tumor   2.90 mL | Dice vs TotalSeg 0.034 | vs 11A 0.152 | 95.7 s
+[04/8] PAN_14
+    S0_full      pancreas     0.0 mL | tumor   0.26 mL | Dice vs TotalSeg 0.007 | vs 11A 1.0 | 94.8 s
+    S1_pad       pancreas     0.1 mL | tumor   0.00 mL | Dice vs TotalSeg 0.002 | vs 11A 0.0 | 189.1 s
+    S2_crop      pancreas     0.1 mL | tumor   0.07 mL | Dice vs TotalSeg 0.002 | vs 11A 0.126 | 24.2 s
+    S3_crop_tta  pancreas     0.1 mL | tumor   0.04 mL | Dice vs TotalSeg 0.002 | vs 11A 0.143 | 41.0 s
+[05/8] PAN_07
+    S0_full      pancreas    12.3 mL | tumor   9.76 mL | Dice vs TotalSeg 0.262 | vs 11A 1.0 | 106.7 s
+    S1_pad       pancreas    23.4 mL | tumor  14.45 mL | Dice vs TotalSeg 0.391 | vs 11A 0.482 | 204.8 s
+    S2_crop      pancreas    36.2 mL | tumor  25.14 mL | Dice vs TotalSeg 0.317 | vs 11A 0.507 | 22.4 s
+    S3_crop_tta  pancreas    42.0 mL | tumor  22.83 mL | Dice vs TotalSeg 0.382 | vs 11A 0.496 | 39.2 s
+[06/8] PAN_03
+    S0_full      pancreas   104.4 mL | tumor  11.10 mL | Dice vs TotalSeg 0.458 | vs 11A 1.0 | 61.7 s
+    S1_pad       pancreas    87.9 mL | tumor   9.03 mL | Dice vs TotalSeg 0.546 | vs 11A 0.816 | 171.5 s
+    S2_crop      pancreas    97.6 mL | tumor  18.09 mL | Dice vs TotalSeg 0.524 | vs 11A 0.769 | 17.1 s
+    S3_crop_tta  pancreas    90.3 mL | tumor  19.75 mL | Dice vs TotalSeg 0.534 | vs 11A 0.772 | 34.2 s
+[07/8] PAN_05
+    S0_full      pancreas    48.8 mL | tumor  41.64 mL | Dice vs TotalSeg 0.812 | vs 11A 1.0 | 174.8 s
+    S1_pad       pancreas    51.1 mL | tumor  37.09 mL | Dice vs TotalSeg 0.823 | vs 11A 0.925 | 289.5 s
+    S2_crop      pancreas    61.5 mL | tumor  42.91 mL | Dice vs TotalSeg 0.784 | vs 11A 0.919 | 24.3 s
+    S3_crop_tta  pancreas    59.2 mL | tumor  40.06 mL | Dice vs TotalSeg 0.808 | vs 11A 0.93 | 41.4 s
+[08/8] PAN_34
+    S0_full      pancreas    46.5 mL | tumor   5.79 mL | Dice vs TotalSeg 0.493 | vs 11A 1.0 | 65.2 s
+    S1_pad       pancreas    51.4 mL | tumor   6.25 mL | Dice vs TotalSeg 0.527 | vs 11A 0.722 | 176.0 s
+    S2_crop      pancreas    66.8 mL | tumor   7.20 mL | Dice vs TotalSeg 0.605 | vs 11A 0.746 | 10.7 s
+    S3_crop_tta  pancreas    64.8 mL | tumor   4.84 mL | Dice vs TotalSeg 0.611 | vs 11A 0.698 | 27.6 s
+
+Dice vs TotalSegmentator pancreas (agreement, not accuracy):
+strategy  11A_original  S0_full  S1_pad  S2_crop  S3_crop_tta
+patient                                                      
+PAN_02           0.000    0.000   0.000    0.000        0.000
+PAN_08           0.000    0.000   0.000    0.000        0.000
+PAN_13           0.036    0.036   0.065    0.040        0.034
+PAN_14           0.007    0.007   0.002    0.002        0.002
+PAN_07           0.262    0.262   0.391    0.317        0.382
+PAN_03           0.458    0.458   0.546    0.524        0.534
+PAN_05           0.812    0.812   0.823    0.784        0.808
+PAN_34           0.493    0.493   0.527    0.605        0.611
+
+Tumor candidate volume (mL):
+strategy  11A_original  S0_full  S1_pad  S2_crop  S3_crop_tta
+patient                                                      
+PAN_02           0.000    0.000   0.000    0.000        0.000
+PAN_08           0.017    0.017   0.200    0.000        0.000
+PAN_13           0.849    0.850   0.000    1.419        2.902
+PAN_14           0.263    0.263   0.000    0.072        0.035
+PAN_07           9.757    9.758  14.454   25.136       22.830
+PAN_03          11.101   11.100   9.034   18.087       19.747
+PAN_05          41.643   41.643  37.094   42.906       40.065
+PAN_34           5.788    5.789   6.252    7.202        4.840
+
+Results:
+/storage-large/homedirs/id683lij/Thesis_Folder/Results/_Phase2_Experiment14_RescueFailures/Phase2_Experiment14_RescueFailures.csv

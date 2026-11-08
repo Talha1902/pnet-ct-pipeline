@@ -1,0 +1,30 @@
+name, memory.total [MiB]
+Tesla P40, 23040 MiB
+torch 2.6.0+cu124 cuda available True
+/home/accounts/studenti/id683lij/venvs/thesis/lib64/python3.11/site-packages/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.spatial.dictionary Orientationd.__init__:labels: Current default value of argument `labels=(('L', 'R'), ('P', 'A'), ('I', 'S'))` was changed in version None from `labels=(('L', 'R'), ('P', 'A'), ('I', 'S'))` to `labels=None`. Default value changed to None meaning that the transform now uses the 'space' of a meta-tensor, if applicable, to determine appropriate axis labels.
+  warn_deprecated(argname, msg, warning_category)
+================================================================================
+EXPERIMENT 14
+RESCUE DiNTS FAILURES BY CHANGING THE INPUT
+================================================================================
+2026-11-04 17:05:52.258952 - Length of input patch is recommended to be a multiple of 32.
+[01/1] PAN_34
+/home/accounts/studenti/id683lij/venvs/thesis/lib64/python3.11/site-packages/monai/data/meta_tensor.py:154: UserWarning: Setting affine, but the applied meta contains an affine. This will be overwritten.
+  warnings.warn("Setting affine, but the applied meta contains an affine. This will be overwritten.")
+    S0_full      pancreas    46.5 mL | tumor   5.79 mL | Dice vs TotalSeg 0.493 | vs 11A 1.0 | 65.9 s
+    S1_pad       pancreas    51.4 mL | tumor   6.25 mL | Dice vs TotalSeg 0.527 | vs 11A 0.722 | 175.6 s
+    S2_crop      pancreas    66.8 mL | tumor   7.20 mL | Dice vs TotalSeg 0.605 | vs 11A 0.746 | 10.6 s
+    S3_crop_tta  pancreas    64.8 mL | tumor   4.84 mL | Dice vs TotalSeg 0.611 | vs 11A 0.698 | 27.7 s
+
+Dice vs TotalSegmentator pancreas (agreement, not accuracy):
+strategy  11A_original  S0_full  S1_pad  S2_crop  S3_crop_tta
+patient                                                      
+PAN_34           0.493    0.493   0.527    0.605        0.611
+
+Tumor candidate volume (mL):
+strategy  11A_original  S0_full  S1_pad  S2_crop  S3_crop_tta
+patient                                                      
+PAN_34           5.788    5.789   6.252    7.202         4.84
+
+Results:
+/storage-large/homedirs/id683lij/Thesis_Folder/Results/_Phase2_Experiment14_RescueFailures/Phase2_Experiment14_RescueFailures.csv

@@ -1,0 +1,116 @@
+================================================================================
+EXPERIMENT 13
+DiNTS MASK CLEAN-UP
+================================================================================
+[01/38] PAN_01: removed 0.0 mL (0.0 %) | tumor comps 1 -> 1 | Dice vs TotalSeg 0.687 -> 0.687 | NO_CHANGE
+[02/38] PAN_02: removed 0.0 mL (0.0 %) | tumor comps 0 -> 0 | Dice vs TotalSeg 0.0 -> 0.0 | EMPTY_OR_NEAR_EMPTY
+[03/38] PAN_03: removed 0.016 mL (0.01 %) | tumor comps 2 -> 2 | Dice vs TotalSeg 0.458 -> 0.458 | MINOR_CHANGE
+[04/38] PAN_04: removed 0.0 mL (0.0 %) | tumor comps 1 -> 1 | Dice vs TotalSeg 0.56 -> 0.56 | NO_CHANGE
+[05/38] PAN_05: removed 0.0 mL (0.0 %) | tumor comps 1 -> 1 | Dice vs TotalSeg 0.812 -> 0.812 | NO_CHANGE
+[06/38] PAN_06: removed 0.0 mL (0.0 %) | tumor comps 1 -> 1 | Dice vs TotalSeg 0.61 -> 0.61 | NO_CHANGE
+[07/38] PAN_07: removed 0.005 mL (0.02 %) | tumor comps 3 -> 2 | Dice vs TotalSeg 0.262 -> 0.262 | MINOR_CHANGE
+[08/38] PAN_08: removed 2.395 mL (26.66 %) | tumor comps 1 -> 0 | Dice vs TotalSeg 0.0 -> 0.0 | NOT_NEAR_TOTALSEG_PANCREAS
+[09/38] PAN_09: removed 0.0 mL (0.0 %) | tumor comps 1 -> 1 | Dice vs TotalSeg 0.772 -> 0.772 | NO_CHANGE
+[10/38] PAN_10: removed 0.0 mL (0.0 %) | tumor comps 0 -> 0 | Dice vs TotalSeg 0.559 -> 0.559 | NO_CHANGE
+[11/38] PAN_11: removed 0.0 mL (0.0 %) | tumor comps 1 -> 1 | Dice vs TotalSeg 0.524 -> 0.524 | NO_CHANGE
+[12/38] PAN_12: removed 0.0 mL (0.0 %) | tumor comps 1 -> 1 | Dice vs TotalSeg 0.855 -> 0.855 | NO_CHANGE
+[13/38] PAN_13: removed 2.863 mL (17.72 %) | tumor comps 2 -> 1 | Dice vs TotalSeg 0.036 -> 0.039 | MAJOR_CHANGE
+[14/38] PAN_14: removed 0.012 mL (4.32 %) | tumor comps 1 -> 1 | Dice vs TotalSeg 0.007 -> 0.007 | EMPTY_OR_NEAR_EMPTY
+[15/38] PAN_15: removed 0.0 mL (0.0 %) | tumor comps 1 -> 1 | Dice vs TotalSeg 0.512 -> 0.512 | NO_CHANGE
+[16/38] PAN_16: removed 0.0 mL (0.0 %) | tumor comps 1 -> 1 | Dice vs TotalSeg 0.69 -> 0.69 | NO_CHANGE
+[17/38] PAN_17: removed 0.0 mL (0.0 %) | tumor comps 0 -> 0 | Dice vs TotalSeg 0.68 -> 0.68 | NO_CHANGE
+[18/38] PAN_18: removed 0.78 mL (1.5 %) | tumor comps 3 -> 1 | Dice vs TotalSeg 0.53 -> 0.533 | MINOR_CHANGE
+[19/38] PAN_19: removed 0.0 mL (0.0 %) | tumor comps 0 -> 0 | Dice vs TotalSeg 0.706 -> 0.706 | NO_CHANGE
+[20/38] PAN_20: removed 0.07 mL (0.15 %) | tumor comps 4 -> 2 | Dice vs TotalSeg 0.723 -> 0.723 | MINOR_CHANGE
+[21/38] PAN_21: removed 0.0 mL (0.0 %) | tumor comps 1 -> 1 | Dice vs TotalSeg 0.515 -> 0.515 | MINOR_CHANGE
+[22/38] PAN_22: removed 0.007 mL (0.02 %) | tumor comps 1 -> 0 | Dice vs TotalSeg 0.845 -> 0.845 | TUMOR_CANDIDATE_REMOVED
+[23/38] PAN_23: removed 0.0 mL (0.0 %) | tumor comps 0 -> 0 | Dice vs TotalSeg 0.453 -> 0.453 | NO_CHANGE
+[24/38] PAN_24: removed 0.0 mL (0.0 %) | tumor comps 2 -> 2 | Dice vs TotalSeg 0.717 -> 0.717 | MINOR_CHANGE
+[25/38] PAN_25: removed 0.0 mL (0.0 %) | tumor comps 1 -> 1 | Dice vs TotalSeg 0.462 -> 0.462 | MINOR_CHANGE
+[26/38] PAN_26: removed 0.0 mL (0.0 %) | tumor comps 1 -> 1 | Dice vs TotalSeg 0.728 -> 0.728 | NO_CHANGE
+[27/38] PAN_27: removed 0.0 mL (0.0 %) | tumor comps 1 -> 1 | Dice vs TotalSeg 0.537 -> 0.537 | NO_CHANGE
+[28/38] PAN_28: removed 0.0 mL (0.0 %) | tumor comps 0 -> 0 | Dice vs TotalSeg 0.353 -> 0.353 | NO_CHANGE
+[29/38] PAN_29: removed 0.0 mL (0.0 %) | tumor comps 2 -> 2 | Dice vs TotalSeg 0.668 -> 0.668 | MINOR_CHANGE
+[30/38] PAN_30: removed 0.0 mL (0.0 %) | tumor comps 1 -> 1 | Dice vs TotalSeg 0.756 -> 0.756 | NO_CHANGE
+[31/38] PAN_31: removed 0.0 mL (0.0 %) | tumor comps 1 -> 1 | Dice vs TotalSeg 0.82 -> 0.82 | NO_CHANGE
+[32/38] PAN_32: removed 0.0 mL (0.0 %) | tumor comps 4 -> 3 | Dice vs TotalSeg 0.813 -> 0.813 | NO_CHANGE
+[33/38] PAN_33: removed 0.0 mL (0.0 %) | tumor comps 1 -> 1 | Dice vs TotalSeg 0.552 -> 0.552 | NO_CHANGE
+[34/38] PAN_34: removed 0.0 mL (0.0 %) | tumor comps 3 -> 3 | Dice vs TotalSeg 0.493 -> 0.493 | NO_CHANGE
+[35/38] PAN_35: removed 0.018 mL (0.03 %) | tumor comps 2 -> 1 | Dice vs TotalSeg 0.785 -> 0.785 | MINOR_CHANGE
+[36/38] PAN_36: removed 0.0 mL (0.0 %) | tumor comps 2 -> 2 | Dice vs TotalSeg 0.742 -> 0.742 | MINOR_CHANGE
+[37/38] PAN_37: removed 0.366 mL (0.26 %) | tumor comps 4 -> 4 | Dice vs TotalSeg 0.691 -> 0.689 | MINOR_CHANGE
+[38/38] PAN_38: removed 0.0 mL (0.0 %) | tumor comps 1 -> 1 | Dice vs TotalSeg 0.778 -> 0.778 | NO_CHANGE
+
+EXPERIMENT 13 - DiNTS MASK CLEAN-UP
+================================================================================
+13-A: keep largest pancreas+tumor complex + fragments within 5.0 mm.
+13-B (final): keep components within 10.0 mm of the TotalSegmentator pancreas.
+Both: remove tumor candidate components < 0.05 mL; fill holes.
+
+Clean-up flag (13-B):
+cleanup_flag
+NO_CHANGE                     22
+MINOR_CHANGE                  11
+EMPTY_OR_NEAR_EMPTY            2
+NOT_NEAR_TOTALSEG_PANCREAS     1
+MAJOR_CHANGE                   1
+TUMOR_CANDIDATE_REMOVED        1
+
+Median (min-max) over patients with a non-empty raw mask:
+  largest_removed_pct                   0.000  (0.000 - 46.680)
+  removed_pct                           0.000  (0.000 - 26.660)
+  raw_dice_vs_totalseg                  0.668  (0.000 - 0.855)
+  largest_dice_vs_totalseg              0.668  (0.000 - 0.855)
+  clean_dice_vs_totalseg                0.668  (0.000 - 0.855)
+  raw_tumor_candidate_components        1.000  (0.000 - 4.000)
+  clean_tumor_candidate_components      1.000  (0.000 - 4.000)
+  clean_tumor_near_totalseg_pct        99.600  (21.700 - 100.000)
+
+13-A vs 13-B, patients where the variants differ:
+patient  largest_removed_pct  largest_dice_vs_totalseg  largest_tumor_candidate_ml  removed_pct  clean_dice_vs_totalseg  clean_tumor_candidate_ml
+ PAN_01                 2.50                     0.693                       0.486         0.00                   0.687                     0.486
+ PAN_03                 0.12                     0.458                      11.101         0.01                   0.458                    11.101
+ PAN_04                46.68                     0.339                       0.000         0.00                   0.560                     1.914
+ PAN_07                 0.64                     0.259                       9.752         0.02                   0.262                     9.752
+ PAN_10                16.02                     0.474                       0.000         0.00                   0.559                     0.000
+ PAN_11                11.93                     0.471                      17.626         0.00                   0.524                    17.626
+ PAN_13                24.84                     0.026                       0.000        17.72                   0.039                     0.849
+ PAN_16                11.27                     0.687                      10.102         0.00                   0.690                    10.102
+ PAN_20                 0.20                     0.723                       6.848         0.15                   0.723                     6.848
+ PAN_26                 0.71                     0.730                       2.383         0.00                   0.728                     2.383
+ PAN_34                 0.42                     0.493                       5.788         0.00                   0.493                     5.788
+ PAN_38                 2.96                     0.789                       0.000         0.00                   0.778                     0.767
+
+Patients whose tumor candidate is mostly (< 50 %) away from the TotalSegmentator pancreas:
+patient  clean_tumor_candidate_ml  clean_tumor_near_totalseg_pct
+ PAN_03                    11.101                           28.7
+ PAN_20                     6.848                           21.7
+ PAN_21                    79.480                           41.3
+ PAN_30                     6.459                           43.4
+ PAN_33                    41.704                           40.3
+ PAN_38                     0.767                           38.5
+
+Flagged patients:
+patient               cleanup_flag  removed_ml  removed_pct  tumor_specks_removed  raw_dice_vs_totalseg  clean_dice_vs_totalseg
+ PAN_02        EMPTY_OR_NEAR_EMPTY       0.000         0.00                     0                 0.000                   0.000
+ PAN_03               MINOR_CHANGE       0.016         0.01                     0                 0.458                   0.458
+ PAN_07               MINOR_CHANGE       0.005         0.02                     1                 0.262                   0.262
+ PAN_08 NOT_NEAR_TOTALSEG_PANCREAS       2.395        26.66                     1                 0.000                   0.000
+ PAN_13               MAJOR_CHANGE       2.863        17.72                     1                 0.036                   0.039
+ PAN_14        EMPTY_OR_NEAR_EMPTY       0.012         4.32                     0                 0.007                   0.007
+ PAN_18               MINOR_CHANGE       0.780         1.50                     2                 0.530                   0.533
+ PAN_20               MINOR_CHANGE       0.070         0.15                     1                 0.723                   0.723
+ PAN_21               MINOR_CHANGE       0.000         0.00                     0                 0.515                   0.515
+ PAN_22    TUMOR_CANDIDATE_REMOVED       0.007         0.02                     1                 0.845                   0.845
+ PAN_24               MINOR_CHANGE       0.000         0.00                     0                 0.717                   0.717
+ PAN_25               MINOR_CHANGE       0.000         0.00                     0                 0.462                   0.462
+ PAN_29               MINOR_CHANGE       0.000         0.00                     0                 0.668                   0.668
+ PAN_35               MINOR_CHANGE       0.018         0.03                     1                 0.785                   0.785
+ PAN_36               MINOR_CHANGE       0.000         0.00                     0                 0.742                   0.742
+ PAN_37               MINOR_CHANGE       0.366         0.26                     0                 0.691                   0.689
+
+IMPORTANT: Dice vs TotalSegmentator is agreement between two models, not accuracy.
+TotalSegmentator's pancreas may exclude a large tumor, which lowers the Dice for those cases.
+
+Case table updated:
+D:\Thesis Folder\Results\_Phase2_Experiment12_CaseTable\Phase2_Experiment12A_CaseTable_All38.csv

@@ -1,0 +1,125 @@
+name, memory.total [MiB]
+Tesla P40, 23040 MiB
+torch 2.6.0+cu124 cuda available True
+/home/accounts/studenti/id683lij/venvs/thesis/lib64/python3.11/site-packages/monai/utils/deprecate_utils.py:321: FutureWarning: monai.transforms.spatial.dictionary Orientationd.__init__:labels: Current default value of argument `labels=(('L', 'R'), ('P', 'A'), ('I', 'S'))` was changed in version None from `labels=(('L', 'R'), ('P', 'A'), ('I', 'S'))` to `labels=None`. Default value changed to None meaning that the transform now uses the 'space' of a meta-tensor, if applicable, to determine appropriate axis labels.
+  warn_deprecated(argname, msg, warning_category)
+================================================================================
+EXPERIMENT 15
+SYNTHETIC SLICE THICKNESS vs DiNTS
+================================================================================
+2026-11-04 18:31:17.863653 - Length of input patch is recommended to be a multiple of 32.
+[01/8] PAN_38
+/home/accounts/studenti/id683lij/venvs/thesis/lib64/python3.11/site-packages/monai/data/meta_tensor.py:154: UserWarning: Setting affine, but the applied meta contains an affine. This will be overwritten.
+  warnings.warn("Setting affine, but the applied meta contains an affine. This will be overwritten.")
+    S0_full       1.6 mm | complex Dice vs thin 0.954 | tumor Dice vs thin 0.899 | tumor 0.758 mL | vs TotalSeg 0.784
+    S0_full       3.2 mm | complex Dice vs thin 0.889 | tumor Dice vs thin 0.098 | tumor 0.039 mL | vs TotalSeg 0.774
+    S0_full       4.8 mm | complex Dice vs thin 0.811 | tumor Dice vs thin 0.06 | tumor 2.873 mL | vs TotalSeg 0.733
+    S0_full      thin   | tumor 0.767 mL | vs TotalSeg 0.778
+    S3_crop_tta   1.6 mm | complex Dice vs thin 0.967 | tumor Dice vs thin 0.384 | tumor 0.046 mL | vs TotalSeg 0.821
+    S3_crop_tta   3.2 mm | complex Dice vs thin 0.935 | tumor Dice vs thin 0.0 | tumor 0.0 mL | vs TotalSeg 0.819
+    S3_crop_tta   4.8 mm | complex Dice vs thin 0.922 | tumor Dice vs thin 0.0 | tumor 0.0 mL | vs TotalSeg 0.821
+    S3_crop_tta  thin   | tumor 0.192 mL | vs TotalSeg 0.818
+[02/8] PAN_12
+    S0_full       1.6 mm | complex Dice vs thin 0.981 | tumor Dice vs thin 0.884 | tumor 1.352 mL | vs TotalSeg 0.853
+    S0_full       3.2 mm | complex Dice vs thin 0.954 | tumor Dice vs thin 0.896 | tumor 1.087 mL | vs TotalSeg 0.849
+    S0_full       4.8 mm | complex Dice vs thin 0.906 | tumor Dice vs thin 0.524 | tumor 2.106 mL | vs TotalSeg 0.851
+    S0_full      thin   | tumor 1.073 mL | vs TotalSeg 0.855
+    S3_crop_tta   1.6 mm | complex Dice vs thin 0.98 | tumor Dice vs thin nan | tumor 0.0 mL | vs TotalSeg 0.877
+    S3_crop_tta   3.2 mm | complex Dice vs thin 0.951 | tumor Dice vs thin nan | tumor 0.0 mL | vs TotalSeg 0.874
+    S3_crop_tta   4.8 mm | complex Dice vs thin 0.894 | tumor Dice vs thin 0.0 | tumor 1.105 mL | vs TotalSeg 0.869
+    S3_crop_tta  thin   | tumor 0.0 mL | vs TotalSeg 0.874
+[03/8] PAN_26
+    S0_full       1.6 mm | complex Dice vs thin 0.887 | tumor Dice vs thin 0.473 | tumor 7.686 mL | vs TotalSeg 0.792
+    S0_full       3.2 mm | complex Dice vs thin 0.771 | tumor Dice vs thin 0.258 | tumor 16.066 mL | vs TotalSeg 0.803
+    S0_full       4.8 mm | complex Dice vs thin 0.746 | tumor Dice vs thin 0.26 | tumor 15.754 mL | vs TotalSeg 0.78
+    S0_full      thin   | tumor 2.383 mL | vs TotalSeg 0.728
+    S3_crop_tta   1.6 mm | complex Dice vs thin 0.94 | tumor Dice vs thin 0.26 | tumor 2.208 mL | vs TotalSeg 0.688
+    S3_crop_tta   3.2 mm | complex Dice vs thin 0.806 | tumor Dice vs thin 0.051 | tumor 12.548 mL | vs TotalSeg 0.781
+    S3_crop_tta   4.8 mm | complex Dice vs thin 0.796 | tumor Dice vs thin 0.052 | tumor 12.324 mL | vs TotalSeg 0.769
+    S3_crop_tta  thin   | tumor 0.33 mL | vs TotalSeg 0.644
+[04/8] PAN_32
+    S0_full       2.1 mm | complex Dice vs thin 0.939 | tumor Dice vs thin 0.894 | tumor 8.232 mL | vs TotalSeg 0.842
+    S0_full       2.8 mm | complex Dice vs thin 0.918 | tumor Dice vs thin 0.893 | tumor 8.256 mL | vs TotalSeg 0.849
+    S0_full       4.9 mm | complex Dice vs thin 0.88 | tumor Dice vs thin 0.764 | tumor 9.789 mL | vs TotalSeg 0.826
+    S0_full      thin   | tumor 7.209 mL | vs TotalSeg 0.813
+    S3_crop_tta   2.1 mm | complex Dice vs thin 0.939 | tumor Dice vs thin 0.901 | tumor 8.909 mL | vs TotalSeg 0.812
+    S3_crop_tta   2.8 mm | complex Dice vs thin 0.919 | tumor Dice vs thin 0.901 | tumor 8.818 mL | vs TotalSeg 0.82
+    S3_crop_tta   4.9 mm | complex Dice vs thin 0.871 | tumor Dice vs thin 0.829 | tumor 10.398 mL | vs TotalSeg 0.821
+    S3_crop_tta  thin   | tumor 8.124 mL | vs TotalSeg 0.774
+[05/8] PAN_29
+    S0_full       1.6 mm | complex Dice vs thin 0.946 | tumor Dice vs thin 0.891 | tumor 8.368 mL | vs TotalSeg 0.687
+    S0_full       3.2 mm | complex Dice vs thin 0.818 | tumor Dice vs thin 0.618 | tumor 13.078 mL | vs TotalSeg 0.675
+    S0_full       4.8 mm | complex Dice vs thin 0.749 | tumor Dice vs thin 0.165 | tumor 8.261 mL | vs TotalSeg 0.595
+    S0_full      thin   | tumor 7.993 mL | vs TotalSeg 0.668
+    S3_crop_tta   1.6 mm | complex Dice vs thin 0.975 | tumor Dice vs thin 0.923 | tumor 5.332 mL | vs TotalSeg 0.741
+    S3_crop_tta   3.2 mm | complex Dice vs thin 0.942 | tumor Dice vs thin 0.796 | tumor 5.229 mL | vs TotalSeg 0.747
+    S3_crop_tta   4.8 mm | complex Dice vs thin 0.902 | tumor Dice vs thin 0.561 | tumor 4.069 mL | vs TotalSeg 0.725
+    S3_crop_tta  thin   | tumor 5.294 mL | vs TotalSeg 0.743
+[06/8] PAN_31
+    S0_full       1.6 mm | complex Dice vs thin 0.973 | tumor Dice vs thin 0.961 | tumor 13.229 mL | vs TotalSeg 0.822
+    S0_full       3.2 mm | complex Dice vs thin 0.936 | tumor Dice vs thin 0.907 | tumor 13.247 mL | vs TotalSeg 0.817
+    S0_full       4.8 mm | complex Dice vs thin 0.917 | tumor Dice vs thin 0.865 | tumor 12.561 mL | vs TotalSeg 0.808
+    S0_full      thin   | tumor 12.686 mL | vs TotalSeg 0.82
+    S3_crop_tta   1.6 mm | complex Dice vs thin 0.975 | tumor Dice vs thin 0.96 | tumor 10.599 mL | vs TotalSeg 0.854
+    S3_crop_tta   3.2 mm | complex Dice vs thin 0.947 | tumor Dice vs thin 0.919 | tumor 10.091 mL | vs TotalSeg 0.845
+    S3_crop_tta   4.8 mm | complex Dice vs thin 0.93 | tumor Dice vs thin 0.87 | tumor 10.202 mL | vs TotalSeg 0.841
+    S3_crop_tta  thin   | tumor 10.719 mL | vs TotalSeg 0.858
+[07/8] PAN_36
+    S0_full       1.6 mm | complex Dice vs thin 0.933 | tumor Dice vs thin 0.762 | tumor 22.181 mL | vs TotalSeg 0.771
+    S0_full       3.2 mm | complex Dice vs thin 0.862 | tumor Dice vs thin 0.634 | tumor 29.466 mL | vs TotalSeg 0.787
+    S0_full       4.8 mm | complex Dice vs thin 0.805 | tumor Dice vs thin 0.553 | tumor 31.619 mL | vs TotalSeg 0.79
+    S0_full      thin   | tumor 14.729 mL | vs TotalSeg 0.742
+    S3_crop_tta   1.6 mm | complex Dice vs thin 0.948 | tumor Dice vs thin 0.566 | tumor 11.065 mL | vs TotalSeg 0.747
+    S3_crop_tta   3.2 mm | complex Dice vs thin 0.779 | tumor Dice vs thin 0.221 | tumor 34.061 mL | vs TotalSeg 0.867
+    S3_crop_tta   4.8 mm | complex Dice vs thin 0.755 | tumor Dice vs thin 0.226 | tumor 30.888 mL | vs TotalSeg 0.847
+    S3_crop_tta  thin   | tumor 4.919 mL | vs TotalSeg 0.719
+[08/8] PAN_24
+    S0_full       1.6 mm | complex Dice vs thin 0.958 | tumor Dice vs thin 0.908 | tumor 36.487 mL | vs TotalSeg 0.698
+    S0_full       3.2 mm | complex Dice vs thin 0.886 | tumor Dice vs thin 0.726 | tumor 49.218 mL | vs TotalSeg 0.648
+    S0_full       4.8 mm | complex Dice vs thin 0.794 | tumor Dice vs thin 0.548 | tumor 76.674 mL | vs TotalSeg 0.573
+    S0_full      thin   | tumor 32.242 mL | vs TotalSeg 0.717
+    S3_crop_tta   1.6 mm | complex Dice vs thin 0.954 | tumor Dice vs thin 0.909 | tumor 46.894 mL | vs TotalSeg 0.701
+    S3_crop_tta   3.2 mm | complex Dice vs thin 0.905 | tumor Dice vs thin 0.809 | tumor 60.808 mL | vs TotalSeg 0.659
+    S3_crop_tta   4.8 mm | complex Dice vs thin 0.856 | tumor Dice vs thin 0.719 | tumor 62.65 mL | vs TotalSeg 0.656
+    S3_crop_tta  thin   | tumor 43.728 mL | vs TotalSeg 0.715
+
+Median dice_complex_vs_thin (rows: strategy, columns: target thickness mm):
+target_thickness_mm   2.0    3.0    5.0
+strategy                               
+S0_full              0.95  0.888  0.808
+S3_crop_tta          0.96  0.927  0.883
+
+Median dice_tumor_vs_thin (rows: strategy, columns: target thickness mm):
+target_thickness_mm    2.0    3.0    5.0
+strategy                                
+S0_full              0.893  0.680  0.536
+S3_crop_tta          0.901  0.796  0.394
+
+Median dice_complex_vs_totalseg (rows: strategy, columns: target thickness mm):
+target_thickness_mm    2.0    3.0    5.0
+strategy                                
+S0_full              0.788  0.795  0.785
+S3_crop_tta          0.780  0.819  0.821
+
+Tumor candidate volume (mL) per patient:
+target_thickness_mm     2.0     3.0     5.0    thin
+patient strategy                                   
+PAN_38  S0_full       0.758   0.039   2.873   0.767
+        S3_crop_tta   0.046   0.000   0.000   0.192
+PAN_12  S0_full       1.352   1.087   2.106   1.073
+        S3_crop_tta   0.000   0.000   1.105   0.000
+PAN_26  S0_full       7.686  16.066  15.754   2.383
+        S3_crop_tta   2.208  12.548  12.324   0.330
+PAN_32  S0_full       8.232   8.256   9.789   7.209
+        S3_crop_tta   8.909   8.818  10.398   8.124
+PAN_29  S0_full       8.368  13.078   8.261   7.993
+        S3_crop_tta   5.332   5.229   4.069   5.294
+PAN_31  S0_full      13.229  13.247  12.561  12.686
+        S3_crop_tta  10.599  10.091  10.202  10.719
+PAN_36  S0_full      22.181  29.466  31.619  14.729
+        S3_crop_tta  11.065  34.061  30.888   4.919
+PAN_24  S0_full      36.487  49.218  76.674  32.242
+        S3_crop_tta  46.894  60.808  62.650  43.728
+
+Results:
+/storage-large/homedirs/id683lij/Thesis_Folder/Results/_Phase2_Experiment15_SliceThickness/Phase2_Experiment15_SliceThickness.csv
